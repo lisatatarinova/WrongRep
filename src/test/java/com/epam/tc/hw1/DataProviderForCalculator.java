@@ -21,4 +21,42 @@ public class DataProviderForCalculator {
                 {1.7976931348623158e+308 + 1, 1.7976931348623158e+308 + 1, 1.7976931348623158e+308*2 + 2}
         };
     }
+
+    @DataProvider
+    public static Object[][] getTestDataForDivisionPositive(){
+        return new Object[][]{
+                {144,12,12},
+                {-15,-5,3},
+                {1459.36,2,729.68}
+        };
+    }
+
+    @DataProvider
+    public static Object[][] getTestDataForDivisionByZero(){
+        return new Object[][]{
+                //{,,},
+                //{,,},
+                {4566,0}
+        };
+    }
+
+    @DataProvider
+    public static Object[][] getTestDataForMultiplicationPositive(){
+        return new Object[][]{
+                //{,,},
+                //{,,},
+                //{,,}
+        };
+    }
+
+
+    @DataProvider
+    public static Object[][] getTestDataForSubtractionPositive(){
+        return new Object[][]{
+                //{,,},
+                //{,,},
+                //{,,}
+        };
+    }
+
 }

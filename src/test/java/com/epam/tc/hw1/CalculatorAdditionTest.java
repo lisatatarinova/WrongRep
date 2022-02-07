@@ -1,9 +1,7 @@
 package com.epam.tc.hw1;
 
 import com.epam.tat.module4.Calculator;
-
 import org.testng.annotations.Test;
-
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class CalculatorAdditionTest {
