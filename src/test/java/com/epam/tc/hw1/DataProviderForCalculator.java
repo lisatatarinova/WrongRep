@@ -34,8 +34,6 @@ public class DataProviderForCalculator {
     @DataProvider
     public static Object[][] getTestDataForDivisionByZero(){
         return new Object[][]{
-                //{,,},
-                //{,,},
                 {4566,0}
         };
     }
@@ -43,9 +41,9 @@ public class DataProviderForCalculator {
     @DataProvider
     public static Object[][] getTestDataForMultiplicationPositive(){
         return new Object[][]{
-                //{,,},
-                //{,,},
-                //{,,}
+                {567,0,0},
+                {0,0,0},
+                {111,555,61605}
         };
     }
 
@@ -53,9 +51,10 @@ public class DataProviderForCalculator {
     @DataProvider
     public static Object[][] getTestDataForSubtractionPositive(){
         return new Object[][]{
-                //{,,},
-                //{,,},
-                //{,,}
+                {0,0,0},
+                {10,0,10},
+                {10,10,0},
+                {231321,6265,225056}
         };
     }
 
